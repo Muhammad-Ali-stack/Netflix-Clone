@@ -1,0 +1,42 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.main
+{
+   background-image: url(Assets/Images/Hero.jpg);
+   background-position: center center;
+   background-size: max(1200px,100vw);
+   background-repeat: no-repeat;
+   height: 70vh;
+   position: relative;
+
+}
+.box
+{
+   height: 70vh;
+   width: 100%;
+   opacity: 0.33;
+   background-color: black;
+   position: absolute;
+   top: 0;
+}
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    z-index: 10;
+    
+}
+.button
+{
+  background-color: red; 
+  font-weight: 200;
+  color: white;
+   size: 20x;
+
+}
